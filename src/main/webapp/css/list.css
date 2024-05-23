@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* 가운데 정렬을 위한 스타일 설정 */
+.center-container {
+  text-align: center;
+  margin-top: 20px; /* 페이지 상단에서의 여백 조절 */
+}
+
+/* 헤더 스타일 설정 */
+h2 {
+  color: #333;
+}
+
+/* 테이블 스타일 설정 */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* 링크 스타일 설정 */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 폼 스타일 설정 */
+form {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #555;
+}

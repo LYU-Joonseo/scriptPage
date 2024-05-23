@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* 가운데 정렬을 위한 스타일 설정 */
+div {
+  text-align: center;
+  margin-top: 50px; /* 페이지 상단에서의 여백 조절 */
+}
+
+/* 헤더 스타일 설정 */
+h1 {
+  color: #333;
+}
+
+/* 체크박스 및 버튼 스타일 설정 */
+input[type="checkbox"] {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

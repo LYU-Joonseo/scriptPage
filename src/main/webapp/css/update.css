@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* 가운데 정렬을 위한 스타일 설정 */
+div {
+  text-align: center;
+  margin-top: 50px; /* 페이지 상단에서의 여백 조절 */
+}
+
+/* 헤더 스타일 설정 */
+h1 {
+  color: #333;
+}
+
+/* 폼 스타일 설정 */
+form {
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px;
+}
+
+/* 입력 필드 스타일 설정 */
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* 버튼 스타일 설정 */
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}

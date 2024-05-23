@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* 가운데 정렬을 위한 스타일 설정 */
+div {
+  text-align: center;
+  margin-top: 50px; /* 페이지 상단에서의 여백 조절 */
+}
+
+/* 헤더 스타일 설정 */
+h2 {
+  color: #333;
+}
+
+/* 테이블 스타일 설정 */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* 입력 필드 및 텍스트 영역 스타일 설정 */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* 등록 버튼 스타일 설정 */
+input[type="submit"] {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}

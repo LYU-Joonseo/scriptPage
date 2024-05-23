@@ -1,0 +1,13 @@
+webapp/index.jsp
+메인 페이지
+
+전체회원은 관리자만 조회가능
+
+회원가입 		/member/signup.jsp	해결
+로그인		login.jsp			해결
+마이페이지		mypage.jsp			해결
+회원 수정		/member/modify.jsp
+회원 탈퇴		/member/delete.jsp	해결
+로그아웃		logout.jsp			해결
+
+게시판 새글 등록시 작성자 => 로그인 id
